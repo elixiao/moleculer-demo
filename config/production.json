@@ -1,0 +1,11 @@
+{
+  "BrokerOptions": {
+    "namespace": "production",
+    "logLevel": "error",
+    "transporter": {
+      "options": {
+        "url": "nats://192.168.3.9:4222"
+      }
+    }
+  }
+}

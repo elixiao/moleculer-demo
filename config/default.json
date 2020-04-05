@@ -1,0 +1,14 @@
+{
+  "BrokerOptions": {
+    "namespace": "test",
+    "logLevel": "debug",
+    "transporter": {
+      "type": "NATS",
+      "options": {
+        "url": "nats://127.0.0.1:4222",
+        "maxReconnectAttempts": 10
+      }
+    },
+    "requestTimeout": 10000
+  }
+}

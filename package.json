@@ -1,0 +1,13 @@
+{
+  "name": "moleculer-demo",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "node src/",
+    "start": "NODE_ENV=production node src/"
+  },
+  "dependencies": {
+    "config": "^3.2.2",
+    "moleculer": "^0.14.3",
+    "nats": "^1.0.1"
+  }
+}
